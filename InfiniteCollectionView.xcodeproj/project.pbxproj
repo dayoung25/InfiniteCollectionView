@@ -14,13 +14,14 @@
 		BEC384FF1946CCBE00898073 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC384FE1946CCBE00898073 /* main.m */; };
 		BEC385031946CCBE00898073 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC385021946CCBE00898073 /* AppDelegate.m */; };
 		BEC385061946CCBE00898073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC385041946CCBE00898073 /* Main.storyboard */; };
-		BEC385091946CCBE00898073 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC385081946CCBE00898073 /* ViewController.m */; };
 		BEC3850B1946CCBE00898073 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3850A1946CCBE00898073 /* Images.xcassets */; };
 		BEC385121946CCBE00898073 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC385111946CCBE00898073 /* XCTest.framework */; };
 		BEC385131946CCBE00898073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC384F21946CCBE00898073 /* Foundation.framework */; };
 		BEC385141946CCBE00898073 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC384F61946CCBE00898073 /* UIKit.framework */; };
 		BEC3851C1946CCBE00898073 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC3851A1946CCBE00898073 /* InfoPlist.strings */; };
 		BEC3851E1946CCBE00898073 /* InfiniteCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC3851D1946CCBE00898073 /* InfiniteCollectionViewTests.m */; };
+		BEC385291946CD3D00898073 /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC385281946CD3D00898073 /* MainCollectionViewController.m */; };
+		BEC3852C1946DA5800898073 /* AccordionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC3852B1946DA5800898073 /* AccordionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		BEC385011946CCBE00898073 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEC385021946CCBE00898073 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BEC385051946CCBE00898073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEC385071946CCBE00898073 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEC385081946CCBE00898073 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BEC3850A1946CCBE00898073 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEC385101946CCBE00898073 /* InfiniteCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC385111946CCBE00898073 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BEC385191946CCBE00898073 /* InfiniteCollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfiniteCollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		BEC3851B1946CCBE00898073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEC3851D1946CCBE00898073 /* InfiniteCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteCollectionViewTests.m; sourceTree = "<group>"; };
+		BEC385271946CD3D00898073 /* MainCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewController.h; sourceTree = "<group>"; };
+		BEC385281946CD3D00898073 /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
+		BEC3852A1946DA5800898073 /* AccordionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionCell.h; sourceTree = "<group>"; };
+		BEC3852B1946DA5800898073 /* AccordionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 				BEC385011946CCBE00898073 /* AppDelegate.h */,
 				BEC385021946CCBE00898073 /* AppDelegate.m */,
 				BEC385041946CCBE00898073 /* Main.storyboard */,
-				BEC385071946CCBE00898073 /* ViewController.h */,
-				BEC385081946CCBE00898073 /* ViewController.m */,
 				BEC3850A1946CCBE00898073 /* Images.xcassets */,
 				BEC384F91946CCBE00898073 /* Supporting Files */,
+				BEC385271946CD3D00898073 /* MainCollectionViewController.h */,
+				BEC385281946CD3D00898073 /* MainCollectionViewController.m */,
+				BEC3852A1946DA5800898073 /* AccordionCell.h */,
+				BEC3852B1946DA5800898073 /* AccordionCell.m */,
 			);
 			path = InfiniteCollectionView;
 			sourceTree = "<group>";
@@ -249,7 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC385091946CCBE00898073 /* ViewController.m in Sources */,
+				BEC3852C1946DA5800898073 /* AccordionCell.m in Sources */,
+				BEC385291946CD3D00898073 /* MainCollectionViewController.m in Sources */,
 				BEC385031946CCBE00898073 /* AppDelegate.m in Sources */,
 				BEC384FF1946CCBE00898073 /* main.m in Sources */,
 			);
@@ -333,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
