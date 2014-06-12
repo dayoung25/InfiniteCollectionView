@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AccordionView.h"
 
-@interface MainCollectionViewController : UICollectionViewController
+@interface MainCollectionViewController : UIViewController <UICollectionViewDataSource>
 @property (nonatomic) CGFloat featureHeight;
 @property (nonatomic) CGFloat collapsedHeight;
+@property (weak, nonatomic) IBOutlet AccordionView *collectionView;
 @property (nonatomic) BOOL scrollsToCollapsedRowsOnSelection;
 @end

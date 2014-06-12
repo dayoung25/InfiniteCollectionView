@@ -22,6 +22,7 @@
 		BEC3851E1946CCBE00898073 /* InfiniteCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC3851D1946CCBE00898073 /* InfiniteCollectionViewTests.m */; };
 		BEC385291946CD3D00898073 /* MainCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC385281946CD3D00898073 /* MainCollectionViewController.m */; };
 		BEC3852C1946DA5800898073 /* AccordionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC3852B1946DA5800898073 /* AccordionCell.m */; };
+		BEC803BE1948B612000E6BEF /* AccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC803BD1948B612000E6BEF /* AccordionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		BEC385281946CD3D00898073 /* MainCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewController.m; sourceTree = "<group>"; };
 		BEC3852A1946DA5800898073 /* AccordionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionCell.h; sourceTree = "<group>"; };
 		BEC3852B1946DA5800898073 /* AccordionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionCell.m; sourceTree = "<group>"; };
+		BEC803BC1948B612000E6BEF /* AccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionView.h; sourceTree = "<group>"; };
+		BEC803BD1948B612000E6BEF /* AccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				BEC385281946CD3D00898073 /* MainCollectionViewController.m */,
 				BEC3852A1946DA5800898073 /* AccordionCell.h */,
 				BEC3852B1946DA5800898073 /* AccordionCell.m */,
+				BEC803BC1948B612000E6BEF /* AccordionView.h */,
+				BEC803BD1948B612000E6BEF /* AccordionView.m */,
 			);
 			path = InfiniteCollectionView;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				BEC385291946CD3D00898073 /* MainCollectionViewController.m in Sources */,
 				BEC385031946CCBE00898073 /* AppDelegate.m in Sources */,
 				BEC384FF1946CCBE00898073 /* main.m in Sources */,
+				BEC803BE1948B612000E6BEF /* AccordionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +468,7 @@
 				BEC385231946CCBE00898073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEC385241946CCBE00898073 /* Build configuration list for PBXNativeTarget "InfiniteCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				BEC385261946CCBE00898073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
